@@ -1,0 +1,140 @@
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar {
+	margin: 0;
+	padding: 10px 10px;
+	float: left;
+	width: 25%;
+	background-color: rgba(175, 170, 170, 0.8);
+	box-shadow: 5px 0px 20px #0f0f0f;
+	border-radius: 0 0 15px 0;
+}
+
+#person-pic {
+	width: 50%;
+	vertical-align: middle;
+	margin: 0px 25%;
+	border-radius: 50%;
+	border-style: inset;
+	border-color: rgba(150,200,255,1.0);
+	border-width: 5px;
+}
+
+#Name {
+	/*text-align: center;*/
+	font-family: "Alegreya SC";
+	font-size: 3.2vw;
+	text-shadow: 0px 5px 20px #0f0f0f;
+	margin: auto;
+	color: #fffbf4;
+	text-align: center;
+}
+
+#menu {
+	margin:  0;
+	padding: 30px 0px 0px 0px;
+}
+
+#menu hr { 
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+#menu li {
+	color: #fffbf4;
+	list-style-type: none;
+	font-family: "Alegreya SC";
+	font-size: 3vw;
+	margin: 0;
+	padding:  0;
+}
+
+#menu li:hover {
+	color: rgba(200,200,200,1.0);
+	cursor: pointer;
+	font-size: 3.1vw;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 70%;
+	/*background-color: blue;*/
+}
+
+.info-page {
+	margin: 0;
+	padding: 20px;
+	font-family: "Alegreya SC";
+}
+
+.info-page .header {
+	font-size: 200%;
+	text-align: center;
+}
+
+#home {
+	width: 100%;
+	
+}
+
+#pb {
+	display: none;
+	height: 200px;
+	width: 100%;
+}
+
+#edu {
+	display: none;
+	width: 100%;
+}
+
+#mst-logo {
+	box-shadow: 0px 0px 1000px rgba(255,255,255,0.5);
+	width: 25%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 15px;
+	border-radius: 20px;
+	float: left;
+}
+
+#school-info {
+	float: left;
+	padding-left: 10px;
+}
+
+#school-info h3 {
+	font-size: 2vw;
+	padding: 0;
+	margin: 0;
+}
+
+#school-info p {
+	font-size: 1.9vw;
+	padding: 0;
+	margin: 0;
+}
+
+#exp {
+	display: none;
+	height: 200px;
+	width: 100%;
+}
+
+#proj {
+	display: none;
+	height: 200px;
+	width: 100%;
+}
+
+
+
